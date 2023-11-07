@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+        .container{
+         display: inline-flex;
+         margin-left: 40%;
+        
+        }
+
+        .account{
+           margin-top: 5%;
+           padding-left: 1em;
+           font-family: Arial, Helvetica, sans-serif;
+           border: 1px solid rgb(215, 215, 215);
+           width: 25em;
+           border-radius: 6px;
+        }
+        .information{
+            margin-top: 3%;
+            font-weight: bold;
+        }
+
+        input{
+            padding: 5px;
+            width: 28em;
+            border-radius: 5px;
+        }
+
+        .bottom{
+            margin-top: 3%;
+            text-align: center;
+            padding: 0.6em;
+            width: 23em;
+            border-radius: 15px;
+            background-color: rgb(255, 251, 0);
+        }
+
+        .reg{
+            flex-direction: column;
+        } 
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+             <img style="padding-left: 38%;" src="pngwing.com.png" width="100px" height="30px">
+             <div class="account">
+                <h3>Greate account</h3>
+              <div class="reg">
+                <form method="get">
+                    <div class="information">
+                        <label for="name">Your name </label> 
+                        <input type="text" id="login" placeholder="First and last name" />
+                    </div>
+
+                    <div class="information">
+                        <label for="number">Mobile number or email</label> 
+                        <input type="text" id="number"/>
+                    </div>
+
+                    <div class="information">
+                        <label for="password">Password</label> 
+                        <input type="password" id="password" placeholder="At least 6 charsets"  maxlength="6"/>
+                    </div>
+
+                    <p style="font-size: 0.7em; color: grey;"><span style="color: rgb(0, 200, 255); margin-right: 5px;"><i>i</i></span>
+                        Passwords must be at least 6 characters
+                    </p>  
+                    
+                    <div class="Re-enter password">
+                        <label for="password">Password</label> 
+                        <input type="password" id="password"  maxlength="6"/>
+                    </div>
+                    
+                    <div class="bottom">
+                        Continue 
+                    </div>
+
+                    <p style="font-size: 0.7em; color: grey; margin-top: 25px;">
+                      By creating a account, you agree to Amazon's 
+                    </p> 
+                    
+                    <div style="margin-bottom: 30px;">
+                        <a href="">
+                            <span style="font-size: 0.7em;">Conditions of Use </span>
+                        </a>
+                        <span style="font-size: 0.7em;">
+                             and
+                            <a href="">
+                                <span>Conditions of Use </span>
+                            </a>Privacy Notice
+                        </span>
+                    </div>
+
+                    <hr style="margin-right: 15px; color: grey;">
+
+                    <div style="margin-top: 30px; margin-bottom: 30px;">
+                        <p style="font-size: 0.9em;">Buying for work?</p>
+                        <a href="">
+                            <span style="font-size: 0.7em;">Create a free busniess account</span>
+                        </a>
+                    </div>
+
+                    <hr style="margin-right: 15px; color: grey;">
+
+                    <div  style="margin-top: 30px; margin-bottom: 20px;">
+                        <span style="font-size: 0.7em;">Already have an account?</span>
+                        <a href="">
+                            <span style="font-size: 0.7em;">Sign in </span>
+                        </a>
+                    </div>
+
+                </form>
+              </div>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
